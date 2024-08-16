@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" thread-count="1" parallel="tests">
+    <test name="ChromeTest">
+        <parameter name="browser" value="Chrome"/>
+        <!--parameter name="filePath" value="C:\Users\tuannm49\IdeaProjects\ex5_nopcommerce\src\main\java\org"/>
+        <parameter name="fileName" value="input.xlsx"/>
+        <parameter name="sheetName" value="Sheet1"/-->
+        <classes>
+            <class name="org.main.Main.MainTC">
+            </class>
+        </classes>
+    </test>
+    <!--test name="FirefoxTest">
+        <classes>
+            <class name="org.main.Main">
+            </class>
+        </classes>
+    </test-->
+</suite>
